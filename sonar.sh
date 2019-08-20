@@ -6,10 +6,5 @@ sudo docker pull sonarqube
 sudo docker run -d --name sonarqube -p 9000:9000 sonarqube
 sudo apt-get update
 sudo apt-get install maven -y
-
-
-
-
-
-
-
+sudo apt-get install nodejs -y
+sudo apt install npm -y
